@@ -2,12 +2,39 @@
     <h1 class="inverted">Платежи</h1>
 
     <p class="inverted">
-        Эта страница динамически подгружается из другого домена и имеет свои внутренние роуты. <br>
+        Эта страница динамически подгружается из другого домена и имеет свои
+        внутренние роуты. <br />
         Также работает как самостоятельное приложение.
     </p>
 
     <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-secondary btn-lg me-md-2" type="button" routerLink="info">Информация</button>
-        <button class="btn btn-secondary btn-lg" type="button" routerLink="review">История операций</button>
+        <button
+            class="btn btn-secondary btn-lg me-md-2"
+            type="button"
+            routerLink="info"
+        >
+            Информация
+        </button>
+        <button
+            class="btn btn-secondary btn-lg"
+            type="button"
+            routerLink="review"
+        >
+            История операций
+        </button>
+    </div>
+
+    <div class="form-check form-switch">
+        <input
+            class="form-check-input"
+            type="checkbox"
+            id="status"
+            name="status"
+            (change)="setStatus()"
+        />
+        <label class="form-check-label" for="flexSwitchCheckDefault"
+            >Выключить экстренный режим</label
+        >
     </div>
 </div>
+у
