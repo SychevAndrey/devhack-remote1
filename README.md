@@ -1,2 +1,2 @@
-# NG12ModFedRemote1
-Angular 12 Remote1 using Webpack 5 Module Federation
+# Module Federation Example
+Remote app using Angular 12 and Webpack 5 Module Federation
