@@ -10,6 +10,9 @@ export class BillingComponent implements OnInit {
     constructor() { }
 
     ngOnInit(): void {
+        window.addEventListener('message', event => {
+            console.log(event);
+        });
     }
 
 }
