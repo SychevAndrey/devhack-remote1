@@ -12,7 +12,6 @@ export class BillingComponent implements OnInit {
     constructor() {}
 
     ngOnInit(): void {}
-    }
 
     async setStatus() {
         this.status = !this.status;
